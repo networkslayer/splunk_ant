@@ -1,0 +1,75 @@
+HR DATA: m_time: 51200, beats: 71, inst_beats: 128
+writing to log: array('B', [132, 255, 152, 67, 77, 71, 200, 71, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 51200, beats: 71, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 152, 67, 77, 71, 200, 71, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 51456, beats: 70, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 77, 71, 58, 75, 201, 70, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 51456, beats: 70, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 77, 71, 58, 75, 201, 70, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 51712, beats: 69, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 58, 75, 65, 79, 202, 69, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 51968, beats: 68, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 65, 79, 65, 83, 203, 68, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+Power: -1Heartrate: 68 Pedal revolutions: -1 Wheel revolutions: -1<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+HR DATA: m_time: 54272, beats: 65, inst_beats: 128
+writing to log: array('B', [132, 255, 216, 111, 243, 115, 212, 65, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 54528, beats: 65, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 243, 115, 251, 119, 213, 65, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 54528, beats: 65, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 243, 115, 251, 119, 213, 65, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 54784, beats: 64, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 251, 119, 231, 123, 214, 64, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 55040, beats: 64, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 231, 123, 132, 127, 215, 64, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56064, beats: 70, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 34, 137, 15, 140, 219, 70, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56576, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 232, 142, 231, 145, 221, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56832, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 231, 145, 38, 149, 222, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56832, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [7, 255, 1, 51, 21, 153, 222, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56832, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 38, 149, 21, 153, 222, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 56832, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 21, 153, 22, 157, 222, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 57088, beats: 73, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 22, 157, 198, 160, 223, 73, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 57600, beats: 72, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 64, 164, 182, 167, 225, 72, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 57600, beats: 72, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 64, 164, 182, 167, 225, 72, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 57856, beats: 71, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 182, 167, 71, 171, 226, 71, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 58112, beats: 71, inst_beats: 128 revolutions: -1
+writing to log: array('B', [132, 255, 71, 171, 202, 174, 227, 71, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+HR DATA: m_time: 58112, beats: 71, inst_beats: 128 revolutions: -1
+writing to log: array('B', [4, 255, 71, 171, 202, 174, 227, 71, 128, 154, 13, 120, 209])
+New Device Found: 3482 of type 120
+

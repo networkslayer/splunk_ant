@@ -1,0 +1,1091 @@
+DEBUG:ant.base.driver:USB Find device, vendor 0xfcf, product 0x1009
+DEBUG:ant.base.driver:USB Config values:
+DEBUG:ant.base.driver: Config 1
+DEBUG:ant.base.driver:  Interface 0, Alt 0
+DEBUG:ant.base.driver:   Endpoint 129
+DEBUG:ant.base.driver:   Endpoint 1
+DEBUG:ant.base.driver:No kernel driver active
+DEBUG:ant.base.driver:UBS Endpoint out:       ENDPOINT 0x1: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x1 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x1, 1
+DEBUG:ant.base.driver:UBS Endpoint in:       ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x1, 129
+DEBUG:ant.base.ant:Ant runner started
+DEBUG:ant.base.ant:Write data: [a4 01 4a 00 ef]
+DEBUG:ant.base.ant:Read data: [a4 01 6f 20 ea] (now have [a4 01 6f 20 ea] in buffer)
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+DEBUG:ant.base.ant:Write data: [a4 09 46 00 b9 a5 21 fb bd 72 c3 45 64]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 46 00 a1] (now have [a4 03 40 00 46 00 a1] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 70, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 70, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 04 42 00 00 00 01 e3]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 42 00 a5] (now have [a4 03 40 00 42 00 a5] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 66, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 66, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 05 51 00 00 00 78 00 88]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 51 00 b6] (now have [a4 03 40 00 51 00 b6] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 81, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 81, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 66 00 01 c1]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 66 00 81] (now have [a4 03 40 00 66 00 81] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 102, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 102, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 44 00 ff 1d]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 44 00 a3] (now have [a4 03 40 00 44 00 a3] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 68, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 68, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 03 43 00 86 1f 7d]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 43 00 a4] (now have [a4 03 40 00 43 00 a4] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 67, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 67, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 45 00 39 da]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d15400>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 45 00 a2] (now have [a4 03 40 00 45 00 a2] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 69, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 69, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 01 4b 00 ee]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x104d152f0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 4b 00 ac] (now have [a4 03 40 00 4b 00 ac] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 75, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 75, array('B', [0]))
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+WARNING:ant.base.ant:<class 'usb.core.USBTimeoutError'>, (60, 'Operation timed out')
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff e8 8f 9b 92 33 55 80 9a 0d 78 d1 29] (now have [a4 0e 4e 00 84 ff e8 8f 9b 92 33 55 80 9a 0d 78 d1 29] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff e8 8f 9b 92 33 55 80 9a 0d 78 d1 29] (now have [a4 0e 4e 00 84 ff e8 8f 9b 92 33 55 80 9a 0d 78 d1 29] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9b 92 78 95 34 55 80 9a 0d 78 d1 24] (now have [a4 0e 4e 00 04 ff 9b 92 78 95 34 55 80 9a 0d 78 d1 24] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9b 92 78 95 34 55 80 9a 0d 78 d1 24] (now have [a4 0e 4e 00 04 ff 9b 92 78 95 34 55 80 9a 0d 78 d1 24] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 78 95 93 98 35 54 80 9a 0d 78 d1 26] (now have [a4 0e 4e 00 04 ff 78 95 93 98 35 54 80 9a 0d 78 d1 26] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 78 95 93 98 35 54 80 9a 0d 78 d1 26] (now have [a4 0e 4e 00 04 ff 78 95 93 98 35 54 80 9a 0d 78 d1 26] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 78 95 93 98 35 54 80 9a 0d 78 d1 a6] (now have [a4 0e 4e 00 84 ff 78 95 93 98 35 54 80 9a 0d 78 d1 a6] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 78 95 93 98 35 54 80 9a 0d 78 d1 a6] (now have [a4 0e 4e 00 84 ff 78 95 93 98 35 54 80 9a 0d 78 d1 a6] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 0e] (now have [a4 0e 4e 00 84 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 0e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 0e] (now have [a4 0e 4e 00 84 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 0e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 8e] (now have [a4 0e 4e 00 04 ff 93 98 de 9b 35 54 80 9a 0d 78 d1 8e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff de 9b 1e 9f 36 53 80 9a 0d 78 d1 00] (now have [a4 0e 4e 00 04 ff de 9b 1e 9f 36 53 80 9a 0d 78 d1 00] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff de 9b 1e 9f 36 53 80 9a 0d 78 d1 00] (now have [a4 0e 4e 00 04 ff de 9b 1e 9f 36 53 80 9a 0d 78 d1 00] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] (now have [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] (now have [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] (now have [a4 0e 4e 00 84 ff 1e 9f 2b a2 37 52 80 9a 0d 78 d1 4c] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 70] (now have [a4 0e 4e 00 84 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 70] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 f0] (now have [a4 0e 4e 00 04 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 f0] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 f0] (now have [a4 0e 4e 00 04 ff 2b a2 17 a5 38 52 80 9a 0d 78 d1 f0] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 17 a5 e0 a7 39 52 80 9a 0d 78 d1 3f] (now have [a4 0e 4e 00 04 ff 17 a5 e0 a7 39 52 80 9a 0d 78 d1 3f] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 17 a5 e0 a7 39 52 80 9a 0d 78 d1 3f] (now have [a4 0e 4e 00 04 ff 17 a5 e0 a7 39 52 80 9a 0d 78 d1 3f] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] (now have [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] (now have [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] (now have [a4 0e 4e 00 84 ff e0 a7 88 aa 3a 53 80 9a 0d 78 d1 2d] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] (now have [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] (now have [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] (now have [a4 0e 4e 00 04 ff 88 aa 66 ad 3b 53 80 9a 0d 78 d1 20] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 fe] (now have [a4 0e 4e 00 04 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 fe] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 7e] (now have [a4 0e 4e 00 84 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 7e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 7e] (now have [a4 0e 4e 00 84 ff 66 ad 4b b0 3c 53 80 9a 0d 78 d1 7e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 49] (now have [a4 0e 4e 00 84 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 49] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 49] (now have [a4 0e 4e 00 84 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 49] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 c9] (now have [a4 0e 4e 00 04 ff 4b b0 4e b3 3d 53 80 9a 0d 78 d1 c9] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] (now have [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] (now have [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] (now have [a4 0e 4e 00 04 ff 4e b3 84 b6 3e 52 80 9a 0d 78 d1 02] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] (now have [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] (now have [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] (now have [a4 0e 4e 00 84 ff 84 b6 96 b9 3f 51 80 9a 0d 78 d1 52] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 3c] (now have [a4 0e 4e 00 84 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 3c] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 04 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 04 ff 96 b9 9f bc 40 51 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 83] (now have [a4 0e 4e 00 04 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 83] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 83] (now have [a4 0e 4e 00 04 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 83] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 03] (now have [a4 0e 4e 00 84 ff 9f bc ae bf 41 51 80 9a 0d 78 d1 03] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] (now have [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] (now have [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] (now have [a4 0e 4e 00 84 ff ae bf b3 c2 42 50 80 9a 0d 78 d1 53] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] (now have [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] (now have [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] (now have [a4 0e 4e 00 03 31 17 12 a2 c5 43 50 80 9a 0d 78 d1 19] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 03 31 17 12 76 c8 44 51 80 9a 0d 78 d1 c6] (now have [a4 0e 4e 00 03 31 17 12 76 c8 44 51 80 9a 0d 78 d1 c6] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff a2 c5 76 c8 44 51 80 9a 0d 78 d1 ed] (now have [a4 0e 4e 00 84 ff a2 c5 76 c8 44 51 80 9a 0d 78 d1 ed] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff a2 c5 76 c8 44 51 80 9a 0d 78 d1 ed] (now have [a4 0e 4e 00 84 ff a2 c5 76 c8 44 51 80 9a 0d 78 d1 ed] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 10] (now have [a4 0e 4e 00 84 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 10] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 10] (now have [a4 0e 4e 00 84 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 10] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 90] (now have [a4 0e 4e 00 04 ff 76 c8 50 cb 45 51 80 9a 0d 78 d1 90] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] (now have [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] (now have [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] (now have [a4 0e 4e 00 04 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 65] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 e5] (now have [a4 0e 4e 00 84 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 e5] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 e5] (now have [a4 0e 4e 00 84 ff 50 cb 86 ce 46 51 80 9a 0d 78 d1 e5] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 ae] (now have [a4 0e 4e 00 84 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 ae] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 ae] (now have [a4 0e 4e 00 84 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 ae] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 2e] (now have [a4 0e 4e 00 04 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 2e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 2e] (now have [a4 0e 4e 00 04 ff 86 ce 03 d3 46 51 80 9a 0d 78 d1 2e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 3b] (now have [a4 0e 4e 00 04 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 3b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 3b] (now have [a4 0e 4e 00 04 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 3b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] (now have [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] (now have [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] (now have [a4 0e 4e 00 84 ff 03 d3 8a d7 46 51 80 9a 0d 78 d1 bb] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 62] (now have [a4 0e 4e 00 84 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 62] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] (now have [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] (now have [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] (now have [a4 0e 4e 00 04 ff 8a d7 d2 db 46 51 80 9a 0d 78 d1 e2] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff d2 db b9 df 46 51 80 9a 0d 78 d1 d9] (now have [a4 0e 4e 00 04 ff d2 db b9 df 46 51 80 9a 0d 78 d1 d9] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff d2 db b9 df 46 51 80 9a 0d 78 d1 59] (now have [a4 0e 4e 00 84 ff d2 db b9 df 46 51 80 9a 0d 78 d1 59] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff d2 db b9 df 46 51 80 9a 0d 78 d1 59] (now have [a4 0e 4e 00 84 ff d2 db b9 df 46 51 80 9a 0d 78 d1 59] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 d3] (now have [a4 0e 4e 00 84 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 d3] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 d3] (now have [a4 0e 4e 00 84 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 d3] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 53] (now have [a4 0e 4e 00 04 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 53] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 53] (now have [a4 0e 4e 00 04 ff b9 df 60 e3 46 51 80 9a 0d 78 d1 53] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 e0] (now have [a4 0e 4e 00 04 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 e0] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 e0] (now have [a4 0e 4e 00 04 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 e0] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 60] (now have [a4 0e 4e 00 84 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 60] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 60] (now have [a4 0e 4e 00 84 ff 60 e3 32 e7 46 51 80 9a 0d 78 d1 60] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 07] (now have [a4 0e 4e 00 84 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 07] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 07] (now have [a4 0e 4e 00 84 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 07] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 87] (now have [a4 0e 4e 00 04 ff 32 e7 0f eb 46 51 80 9a 0d 78 d1 87] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 0f eb fb ee 46 51 80 9a 0d 78 d1 47] (now have [a4 0e 4e 00 04 ff 0f eb fb ee 46 51 80 9a 0d 78 d1 47] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 0f eb fb ee 46 51 80 9a 0d 78 d1 c7] (now have [a4 0e 4e 00 84 ff 0f eb fb ee 46 51 80 9a 0d 78 d1 c7] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff fb ee b2 f2 46 51 80 9a 0d 78 d1 63] (now have [a4 0e 4e 00 84 ff fb ee b2 f2 46 51 80 9a 0d 78 d1 63] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 1b] (now have [a4 0e 4e 00 04 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 1b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 1b] (now have [a4 0e 4e 00 04 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 1b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 9b] (now have [a4 0e 4e 00 84 ff b2 f2 1b f6 47 50 80 9a 0d 78 d1 9b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] (now have [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] (now have [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] (now have [a4 0e 4e 00 84 ff 1b f6 58 f9 48 4f 80 9a 0d 78 d1 6a] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] (now have [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] (now have [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] (now have [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] (now have [a4 0e 4e 00 04 ff 58 f9 cd fc 49 4e 80 9a 0d 78 d1 36] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] (now have [a4 0e 4e 00 84 ff cd fc ab 00 49 4e 80 9a 0d 78 d1 bc] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] (now have [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] (now have [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] (now have [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] (now have [a4 0e 4e 00 04 ff ab 00 c9 04 49 4e 80 9a 0d 78 d1 c0] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] (now have [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] (now have [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] (now have [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] (now have [a4 0e 4e 00 86 ff 00 00 9b 08 49 4e 80 9a 0d 78 d1 b7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] (now have [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] (now have [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] (now have [a4 0e 4e 00 04 ff 9b 08 43 0c 4a 4c 80 9a 0d 78 d1 7b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 27] (now have [a4 0e 4e 00 04 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 27] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] (now have [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] (now have [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] (now have [a4 0e 4e 00 84 ff 43 0c c6 0f 4b 4b 80 9a 0d 78 d1 a7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 c9] (now have [a4 0e 4e 00 84 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 c9] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 49] (now have [a4 0e 4e 00 04 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 49] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 49] (now have [a4 0e 4e 00 04 ff c6 0f 35 13 4c 4b 80 9a 0d 78 d1 49] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 ca] (now have [a4 0e 4e 00 04 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 ca] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 ca] (now have [a4 0e 4e 00 04 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 ca] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 4a] (now have [a4 0e 4e 00 84 ff 35 13 5d 16 4d 4b 80 9a 0d 78 d1 4a] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] (now have [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] (now have [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] (now have [a4 0e 4e 00 84 ff 5d 16 62 19 4e 4b 80 9a 0d 78 d1 14] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] (now have [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] (now have [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] (now have [a4 0e 4e 00 04 ff 62 19 4b 1c 4f 4c 80 9a 0d 78 d1 8e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 da] (now have [a4 0e 4e 00 04 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 da] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 5a] (now have [a4 0e 4e 00 84 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 5a] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 5a] (now have [a4 0e 4e 00 84 ff 4b 1c 2e 1f 50 4d 80 9a 0d 78 d1 5a] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 29] (now have [a4 0e 4e 00 84 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 29] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 29] (now have [a4 0e 4e 00 84 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 29] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 a9] (now have [a4 0e 4e 00 04 ff 2e 1f 04 22 51 4e 80 9a 0d 78 d1 a9] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] (now have [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] (now have [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] (now have [a4 0e 4e 00 04 ff 04 22 c8 24 52 4f 80 9a 0d 78 d1 76] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] (now have [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] (now have [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] (now have [a4 0e 4e 00 84 ff c8 24 b6 27 53 4f 80 9a 0d 78 d1 40] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 e6] (now have [a4 0e 4e 00 84 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 e6] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 66] (now have [a4 0e 4e 00 04 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 66] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 66] (now have [a4 0e 4e 00 04 ff b6 27 78 2a 54 50 80 9a 0d 78 d1 66] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 87] (now have [a4 0e 4e 00 04 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 87] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 87] (now have [a4 0e 4e 00 04 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 87] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 07] (now have [a4 0e 4e 00 84 ff 78 2a 5c 2d 55 50 80 9a 0d 78 d1 07] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] (now have [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] (now have [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] (now have [a4 0e 4e 00 84 ff 5c 2d 54 30 56 50 80 9a 0d 78 d1 32] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] (now have [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] (now have [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] (now have [a4 0e 4e 00 04 ff 54 30 59 33 57 50 80 9a 0d 78 d1 a8] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 59 33 68 36 58 50 80 9a 0d 78 d1 9d] (now have [a4 0e 4e 00 04 ff 59 33 68 36 58 50 80 9a 0d 78 d1 9d] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 59 33 68 36 58 50 80 9a 0d 78 d1 1d] (now have [a4 0e 4e 00 84 ff 59 33 68 36 58 50 80 9a 0d 78 d1 1d] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 59 33 68 36 58 50 80 9a 0d 78 d1 1d] (now have [a4 0e 4e 00 84 ff 59 33 68 36 58 50 80 9a 0d 78 d1 1d] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 83] (now have [a4 0e 4e 00 84 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 83] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 83] (now have [a4 0e 4e 00 84 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 83] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 03] (now have [a4 0e 4e 00 04 ff 68 36 cc 39 59 50 80 9a 0d 78 d1 03] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 f2] (now have [a4 0e 4e 00 84 ff cc 39 0e 3d 5a 4f 80 9a 0d 78 d1 f2] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] (now have [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] (now have [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] (now have [a4 0e 4e 00 84 ff 0e 3d 6c 40 5b 4e 80 9a 0d 78 d1 2b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 6c 40 b3 43 5c 4e 80 9a 0d 78 d1 6f] (now have [a4 0e 4e 00 04 ff 6c 40 b3 43 5c 4e 80 9a 0d 78 d1 6f] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 6c 40 b3 43 5c 4e 80 9a 0d 78 d1 6f] (now have [a4 0e 4e 00 04 ff 6c 40 b3 43 5c 4e 80 9a 0d 78 d1 6f] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 c0] (now have [a4 0e 4e 00 04 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 c0] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 40] (now have [a4 0e 4e 00 84 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 40] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 40] (now have [a4 0e 4e 00 84 ff b3 43 c4 46 5d 4e 80 9a 0d 78 d1 40] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c4 46 b4 49 5e 4e 80 9a 0d 78 d1 4e] (now have [a4 0e 4e 00 84 ff c4 46 b4 49 5e 4e 80 9a 0d 78 d1 4e] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff c4 46 b4 49 5e 4e 80 9a 0d 78 d1 4e] (now have [a4 0e 4e 00 84 ff c4 46 b4 49 5e 4e 80 9a 0d 78 d1 4e] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 07 ff fb 32 b4 49 5e 4e 80 9a 0d 78 d1 86] (now have [a4 0e 4e 00 07 ff fb 32 b4 49 5e 4e 80 9a 0d 78 d1 86] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] (now have [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] (now have [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] (now have [a4 0e 4e 00 07 ff fb 32 93 4c 5f 4f 80 9a 0d 78 d1 a4] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] (now have [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] (now have [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] (now have [a4 0e 4e 00 84 ff 93 4c 69 4f 60 4f 80 9a 0d 78 d1 f7] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 34] (now have [a4 0e 4e 00 84 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 34] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 b4] (now have [a4 0e 4e 00 04 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 b4] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 b4] (now have [a4 0e 4e 00 04 ff 69 4f 50 52 61 50 80 9a 0d 78 d1 b4] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 89] (now have [a4 0e 4e 00 04 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 89] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 89] (now have [a4 0e 4e 00 04 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 89] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 09] (now have [a4 0e 4e 00 84 ff 50 52 52 55 62 4f 80 9a 0d 78 d1 09] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] (now have [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] (now have [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] (now have [a4 0e 4e 00 84 ff 52 55 2d 58 63 50 80 9a 0d 78 d1 60] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.easy.node:Stoping ant.easy
+DEBUG:ant.base.ant:Stoping ant.base
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Ant runner stopped
+DEBUG:ant.base.driver:USB Find device, vendor 0xfcf, product 0x1009
+DEBUG:ant.base.driver:USB Config values:
+DEBUG:ant.base.driver: Config 1
+DEBUG:ant.base.driver:  Interface 0, Alt 0
+DEBUG:ant.base.driver:   Endpoint 129
+DEBUG:ant.base.driver:   Endpoint 1
+DEBUG:ant.base.driver:No kernel driver active
+DEBUG:ant.base.driver:UBS Endpoint out:       ENDPOINT 0x1: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x1 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x1, 1
+DEBUG:ant.base.driver:UBS Endpoint in:       ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x1, 129
+DEBUG:ant.base.ant:Ant runner started
+DEBUG:ant.base.ant:Write data: [a4 01 4a 00 ef]
+DEBUG:ant.base.ant:Read data: [a4 01 6f 20 ea] (now have [a4 01 6f 20 ea] in buffer)
+DEBUG:ant.base.ant:Write data: [a4 09 46 00 b9 a5 21 fb bd 72 c3 45 64]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 46 00 a1] (now have [a4 03 40 00 46 00 a1] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 70, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 70, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 04 42 00 00 00 01 e3]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 42 00 a5] (now have [a4 03 40 00 42 00 a5] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 66, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 66, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 05 51 00 00 00 78 00 88]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 51 00 b6] (now have [a4 03 40 00 51 00 b6] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 81, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 81, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 66 00 01 c1]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 66 00 81] (now have [a4 03 40 00 66 00 81] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 102, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 102, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 44 00 ff 1d]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 44 00 a3] (now have [a4 03 40 00 44 00 a3] in buffer)
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 68, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 68, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 03 43 00 86 1f 7d]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052390d0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 43 00 a4] (now have [a4 03 40 00 43 00 a4] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 67, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 67, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 02 45 00 39 da]
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x1052391e0>
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 45 00 a2] (now have [a4 03 40 00 45 00 a2] in buffer)
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 69, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 69, array('B', [0]))
+DEBUG:ant.base.ant:Write data: [a4 01 4b 00 ee]
+DEBUG:ant.base.ant:Read data: [a4 03 40 00 4b 00 ac] (now have [a4 03 40 00 4b 00 ac] in buffer)
+DEBUG:ant.easy.filter:wait for message matching <function wait_for_response.<locals>.match at 0x10521fea0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32]))])
+DEBUG:ant.easy.filter: - could not find response matching <function wait_for_response.<locals>.match at 0x10521fea0>
+DEBUG:ant.easy.filter:looking for matching message in deque([(None, 111, array('B', [32])), (0, 75, array('B', [0]))])
+DEBUG:ant.easy.filter: - response found (0, 75, array('B', [0]))
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff ec f7 19 fc c9 40 80 9a 0d 78 d1 d6] (now have [a4 0e 4e 00 04 ff ec f7 19 fc c9 40 80 9a 0d 78 d1 d6] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 cb] (now have [a4 0e 4e 00 04 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 cb] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] (now have [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] (now have [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] (now have [a4 0e 4e 00 84 ff 19 fc fa ff ca 40 80 9a 0d 78 d1 4b] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 1f] (now have [a4 0e 4e 00 84 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 1f] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] (now have [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] (now have [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] (now have [a4 0e 4e 00 04 ff fa ff cc 03 cb 3f 80 9a 0d 78 d1 9f] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 29] (now have [a4 0e 4e 00 04 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 29] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] (now have [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] (now have [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] (now have [a4 0e 4e 00 84 ff cc 03 b3 07 cc 3f 80 9a 0d 78 d1 a9] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 84 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 f2] (now have [a4 0e 4e 00 84 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 f2] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:No new data this period
+DEBUG:ant.base.ant:Got broadcast data, examine queue to see if we should send anything back
+DEBUG:ant.base.ant: - no messages in queue
+DEBUG:ant.easy.node:Stoping ant.easy
+DEBUG:ant.base.ant:Stoping ant.base
+DEBUG:ant.base.ant:Read data: [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] (now have [a4 0e 4e 00 04 ff b3 07 9e 0b cd 3f 80 9a 0d 78 d1 72] in buffer)
+DEBUG:ant.base.ant:Ant runner stopped
